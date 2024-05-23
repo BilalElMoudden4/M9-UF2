@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Reproductor d'àudio</title>
+</head>
+<body>
+    <div class="player">
+        <div class="album-art">
+            <img id="album-img" src="" alt="Album Image">
+        </div>
+        <div class="song-info">
+            <h2 id="song-title"></h2>
+            <p id="artist"></p>
+        </div>
+        <audio id="audio" src=""></audio>
+        <div class="controls">
+            <button id="prev"><span class="material-icons">skip_previous</span></button>
+            <button id="playPause"><span class="material-icons">play_arrow</span></button>
+            <button id="next"><span class="material-icons">skip_next</span></button>
+        </div>
+        <input type="range" id="progress" min="0" max="100" value="0">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

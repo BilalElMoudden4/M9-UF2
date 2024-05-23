@@ -1,0 +1,26 @@
+{
+    "songs": [
+      {
+        "name": "I'm Good",
+        "artist": "David Guetta",
+        "path": "ImGood.mp3",
+        "duration": "3:17",
+        "img": "ImGood.png"
+      },
+      {
+        "name": "Dancin",
+        "artist": "Aaron Smith",
+        "path": "Dancin.mp3",
+        "duration": "3:17",
+        "img": "Dancin.png"
+      },
+      {
+        "name": "Believer",
+        "artist": "Imagine Dragons",
+        "path": "Believer.mp3",
+        "duration": "3:24",
+        "img": "Believer.png"
+      }
+    ]
+  }
+  

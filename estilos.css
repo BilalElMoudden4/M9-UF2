@@ -33,6 +33,20 @@
     transform: rotate(10deg);
 }
 
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.album-art img.rotating {
+    animation: rotate 5s linear infinite;
+}
+
+
 .controls {
     background-color: rgba(195, 255, 183, 0.8);
     padding: 10px;
